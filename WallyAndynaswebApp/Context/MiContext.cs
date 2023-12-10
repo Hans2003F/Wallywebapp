@@ -11,6 +11,7 @@ namespace WallyAndynaswebApp.Context
             
         }
         //que modelos deben de trabajar con la base de datos
+        //estas clases persistentes, se van a transformar en tablas en la BdD
         public DbSet<Usuario> Usuarios { get; set; }
         public DbSet<Cliente> Clientes { get; set; }
     }
