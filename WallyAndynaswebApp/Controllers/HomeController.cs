@@ -12,12 +12,19 @@ namespace WallyAndynaswebApp.Controllers
         {
             _logger = logger;
         }
-
+        // el controlador llama a las vistas
         public IActionResult Index()
         {
             return View();
         }
-
+        public IActionResult Usuarios() 
+        { 
+            return View(); 
+        }
+        public IActionResult InvetarioCanchas()
+        {
+            return View();
+        }
         public IActionResult Privacy()
         {
             return View();

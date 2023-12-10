@@ -242,3 +242,4 @@ C:\Users\HP\Desktop\Hans Quispe\Actualizacion Tecnologica\WallyAndynaswebApp\Wal
 C:\Users\HP\Desktop\Hans Quispe\Actualizacion Tecnologica\WallyAndynaswebApp\WallyAndynaswebApp\bin\Debug\net6.0\System.Text.Encodings.Web.dll
 C:\Users\HP\Desktop\Hans Quispe\Actualizacion Tecnologica\WallyAndynaswebApp\WallyAndynaswebApp\bin\Debug\net6.0\System.Text.Json.dll
 C:\Users\HP\Desktop\Hans Quispe\Actualizacion Tecnologica\WallyAndynaswebApp\WallyAndynaswebApp\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\HP\Desktop\Hans Quispe\Actualizacion Tecnologica\WallyAndynaswebApp\WallyAndynaswebApp\obj\Debug\net6.0\WallyAndynaswebApp.sourcelink.json
