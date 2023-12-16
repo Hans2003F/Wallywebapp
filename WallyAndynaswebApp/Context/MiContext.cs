@@ -3,7 +3,7 @@ using System.Security.Cryptography.X509Certificates;
 using WallyAndynaswebApp.Models;
 
 namespace WallyAndynaswebApp.Context
-{
+{   //Probando rama
     public class MiContext:DbContext
     {
         public MiContext(DbContextOptions options):base(options) 
