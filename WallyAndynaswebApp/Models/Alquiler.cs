@@ -2,7 +2,7 @@
 using WallyAndynaswebApp.Dtos;
 namespace WallyAndynaswebApp.Models
 {
-    public class Registro
+    public class Alquiler
     {
         public int Id { get; set; }
         [Required]
@@ -16,7 +16,7 @@ namespace WallyAndynaswebApp.Models
         [Required]
         public DateTime Fecha { get; set; }
         [Required]
-        public DateTime Horas { get; set; }
+        public int Horas { get; set; }
         [Required]
         public DateTime Desde { get; set; }
         [Required]
@@ -25,5 +25,13 @@ namespace WallyAndynaswebApp.Models
         public int Costo { get; set; }
         [Required]
         public RolEstado Estado { get; set;}
+
+
+        //foreing keys
+        public int UsuarioId { get; set; }
+        public Usuario? Usuario { get; set; }
+
+        public int CanchaId { get; set; }
+        public Cancha? Cancha { get; set; }
     }
 }

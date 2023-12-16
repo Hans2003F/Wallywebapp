@@ -1,5 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System.Security.Cryptography.X509Certificates;
 using WallyAndynaswebApp.Models;
 
 namespace WallyAndynaswebApp.Context
@@ -13,6 +12,7 @@ namespace WallyAndynaswebApp.Context
         //que modelos deben de trabajar con la base de datos
         //estas clases persistentes, se van a transformar en tablas en la BdD
         public DbSet<Usuario> Usuarios { get; set; }
-        public DbSet<Cliente> Clientes { get; set; }
+        public DbSet<Cancha> Canchas { get; set; }
+        public DbSet<Alquiler> Alquilers { get; set; }
     }
 }

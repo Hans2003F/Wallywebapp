@@ -15,5 +15,8 @@ namespace WallyAndynaswebApp.Models
         public string? NombreCompleto { get; set; }
         [Required]
         public RolEnum Rol { get; set; }
+
+        //relciones a muchos
+        public virtual List<Alquiler>? Registros { get; set; }
     }
 }
