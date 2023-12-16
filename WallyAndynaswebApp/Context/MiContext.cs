@@ -6,6 +6,7 @@ namespace WallyAndynaswebApp.Context
 {
     public class MiContext:DbContext
     {
+        //añadiendo comentario
         public MiContext(DbContextOptions options):base(options) 
         {
             
