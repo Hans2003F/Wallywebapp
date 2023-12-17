@@ -18,6 +18,46 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\HP\Desktop\Hans Quispe\Actualizacion Tecnologica\WallyAndynaswebApp\WallyAndynaswebApp
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/HP/Desktop/Hans Quispe/Actualizacion Tecnologica/WallyAndynaswebApp/WallyAndynaswebApp/Views/Alquilers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxxdWlsZXJzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/Hans Quispe/Actualizacion Tecnologica/WallyAndynaswebApp/WallyAndynaswebApp/Views/Alquilers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxxdWlsZXJzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/Hans Quispe/Actualizacion Tecnologica/WallyAndynaswebApp/WallyAndynaswebApp/Views/Alquilers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxxdWlsZXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/Hans Quispe/Actualizacion Tecnologica/WallyAndynaswebApp/WallyAndynaswebApp/Views/Alquilers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxxdWlsZXJzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/Hans Quispe/Actualizacion Tecnologica/WallyAndynaswebApp/WallyAndynaswebApp/Views/Alquilers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxxdWlsZXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/Hans Quispe/Actualizacion Tecnologica/WallyAndynaswebApp/WallyAndynaswebApp/Views/Canchas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuY2hhc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/Hans Quispe/Actualizacion Tecnologica/WallyAndynaswebApp/WallyAndynaswebApp/Views/Canchas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuY2hhc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/Hans Quispe/Actualizacion Tecnologica/WallyAndynaswebApp/WallyAndynaswebApp/Views/Canchas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuY2hhc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/Hans Quispe/Actualizacion Tecnologica/WallyAndynaswebApp/WallyAndynaswebApp/Views/Canchas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuY2hhc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/Hans Quispe/Actualizacion Tecnologica/WallyAndynaswebApp/WallyAndynaswebApp/Views/Canchas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuY2hhc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/HP/Desktop/Hans Quispe/Actualizacion Tecnologica/WallyAndynaswebApp/WallyAndynaswebApp/Views/Home/AcercaDe.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBY2VyY2FEZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -26,16 +66,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/Desktop/Hans Quispe/Actualizacion Tecnologica/WallyAndynaswebApp/WallyAndynaswebApp/Views/Home/InvetarioCanchas.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbnZldGFyaW9DYW5jaGFzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/HP/Desktop/Hans Quispe/Actualizacion Tecnologica/WallyAndynaswebApp/WallyAndynaswebApp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/HP/Desktop/Hans Quispe/Actualizacion Tecnologica/WallyAndynaswebApp/WallyAndynaswebApp/Views/Home/Usuarios.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxVc3Vhcmlvcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/HP/Desktop/Hans Quispe/Actualizacion Tecnologica/WallyAndynaswebApp/WallyAndynaswebApp/Views/Shared/Error.cshtml]
@@ -44,6 +76,26 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/HP/Desktop/Hans Quispe/Actualizacion Tecnologica/WallyAndynaswebApp/WallyAndynaswebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/Hans Quispe/Actualizacion Tecnologica/WallyAndynaswebApp/WallyAndynaswebApp/Views/Usuarios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/Hans Quispe/Actualizacion Tecnologica/WallyAndynaswebApp/WallyAndynaswebApp/Views/Usuarios/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/Hans Quispe/Actualizacion Tecnologica/WallyAndynaswebApp/WallyAndynaswebApp/Views/Usuarios/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/Hans Quispe/Actualizacion Tecnologica/WallyAndynaswebApp/WallyAndynaswebApp/Views/Usuarios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/Hans Quispe/Actualizacion Tecnologica/WallyAndynaswebApp/WallyAndynaswebApp/Views/Usuarios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/HP/Desktop/Hans Quispe/Actualizacion Tecnologica/WallyAndynaswebApp/WallyAndynaswebApp/Views/_ViewImports.cshtml]

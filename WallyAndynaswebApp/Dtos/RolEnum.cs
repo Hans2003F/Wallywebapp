@@ -2,12 +2,12 @@
 {
     public enum RolEnum
     {
-        Director = 1,
-        Secretaria
+        Gerente = 1,
+        Cajera
     }
     public enum RolEstado
     {
-        Reservado = 1,
-        Alquilado
+        Alquilado = 1,
+        Reservado
     }
 }
