@@ -1,0 +1,86 @@
+﻿@model WallyAndynaswebApp.Models.Alquiler
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Alquiler</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="NumCancha" class="control-label"></label>
+                <input asp-for="NumCancha" class="form-control" />
+                <span asp-validation-for="NumCancha" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Cliente" class="control-label"></label>
+                <input asp-for="Cliente" class="form-control" />
+                <span asp-validation-for="Cliente" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CedIden" class="control-label"></label>
+                <input asp-for="CedIden" class="form-control" />
+                <span asp-validation-for="CedIden" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Celular" class="control-label"></label>
+                <input asp-for="Celular" class="form-control" />
+                <span asp-validation-for="Celular" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Fecha" class="control-label"></label>
+                <input asp-for="Fecha" class="form-control" />
+                <span asp-validation-for="Fecha" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Horas" class="control-label"></label>
+                <input asp-for="Horas" class="form-control" />
+                <span asp-validation-for="Horas" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Desde" class="control-label"></label>
+                <input asp-for="Desde" class="form-control" />
+                <span asp-validation-for="Desde" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Hasta" class="control-label"></label>
+                <input asp-for="Hasta" class="form-control" />
+                <span asp-validation-for="Hasta" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Costo" class="control-label"></label>
+                <input asp-for="Costo" class="form-control" />
+                <span asp-validation-for="Costo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Estado" class="control-label"></label>
+                <select asp-for="Estado" class="form-control">
+                    <option value="1">Alquilada</option>
+                    <option value="2">Reservada</option>
+                </select>
+                <span asp-validation-for="Estado" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UsuarioId" class="control-label"></label>
+                <select asp-for="UsuarioId" class ="form-control" asp-items="ViewBag.UsuarioId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="CanchaId" class="control-label"></label>
+                <select asp-for="CanchaId" class ="form-control" asp-items="ViewBag.CanchaId"></select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
