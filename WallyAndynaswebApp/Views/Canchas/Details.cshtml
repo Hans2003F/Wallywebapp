@@ -20,7 +20,12 @@
             @Html.DisplayNameFor(model => model.Imagen)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Imagen)
+            <div class="col-sm-4">
+                @if(Model.Imagen != null)
+                {
+                    <img src="~/fotos/@Model.Imagen" class="img-thumbnail" width="150px"/>
+                }
+            </div>
         </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Descripcion)

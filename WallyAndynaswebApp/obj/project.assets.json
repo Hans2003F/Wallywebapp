@@ -11434,24 +11434,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\LENOVO CORE i3\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\59170\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LENOVO CORE i3\\Desktop\\proyectogatty\\Wallywebapp\\WallyAndynaswebApp\\WallyAndynaswebApp.csproj",
+      "projectUniqueName": "C:\\Users\\59170\\Desktop\\actualizacion tecnologica\\Ultimo\\Wallywebapp\\WallyAndynaswebApp\\WallyAndynaswebApp.csproj",
       "projectName": "WallyAndynaswebApp",
-      "projectPath": "C:\\Users\\LENOVO CORE i3\\Desktop\\proyectogatty\\Wallywebapp\\WallyAndynaswebApp\\WallyAndynaswebApp.csproj",
-      "packagesPath": "C:\\Users\\LENOVO CORE i3\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LENOVO CORE i3\\Desktop\\proyectogatty\\Wallywebapp\\WallyAndynaswebApp\\obj\\",
+      "projectPath": "C:\\Users\\59170\\Desktop\\actualizacion tecnologica\\Ultimo\\Wallywebapp\\WallyAndynaswebApp\\WallyAndynaswebApp.csproj",
+      "packagesPath": "C:\\Users\\59170\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\59170\\Desktop\\actualizacion tecnologica\\Ultimo\\Wallywebapp\\WallyAndynaswebApp\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\LENOVO CORE i3\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\59170\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11459,7 +11454,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
