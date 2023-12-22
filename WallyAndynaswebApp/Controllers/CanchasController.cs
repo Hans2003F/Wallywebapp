@@ -13,9 +13,10 @@ namespace WallyAndynaswebApp.Controllers
     public class CanchasController : Controller
     {
         private readonly MiContext _context;
-
-        public CanchasController(MiContext context)
+        private readonly IWebHostEnvironment _webHostEnvironment;
+        public CanchasController(MiContext context, IWebHostEnvironment webHostEnvironment)
         {
+            _webHostEnvironment = webHostEnvironment;
             _context = context;
         }
 
@@ -56,15 +57,30 @@ namespace WallyAndynaswebApp.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,NumCancha,Imagen,Descripcion")] Cancha cancha)
+        public async Task<IActionResult> Create([Bind("Id,NumCancha,ImagenFile,Descripcion")] Cancha cancha)
         {
             if (ModelState.IsValid)
             {
+                if (cancha.ImagenFile != null)
+                {
+                    await subirFoto(cancha);
+                }
                 _context.Add(cancha);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
             return View(cancha);
+        }
+
+        private async Task subirFoto(Cancha cancha)
+        {
+            string wwwRootPath = _webHostEnvironment.WebRootPath;
+            string extension = Path.GetExtension(cancha.ImagenFile!.FileName);
+            string nombreFoto = $"{cancha.Id}.{extension}";
+            cancha.Imagen = nombreFoto;
+            string path = Path.Combine($"{wwwRootPath}/fotos/", nombreFoto);
+            var fileStream = new FileStream(path, FileMode.Create);
+            await cancha.ImagenFile.CopyToAsync(fileStream);
         }
 
         // GET: Canchas/Edit/5
