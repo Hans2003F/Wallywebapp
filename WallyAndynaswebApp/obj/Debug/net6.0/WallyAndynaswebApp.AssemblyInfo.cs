@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WallyAndynaswebApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+71f91430e8ecfbfd53e287c19e40661348876d57")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+54002f00dc8ab4bd3e8b31640470baed07bd887d")]
 [assembly: System.Reflection.AssemblyProductAttribute("WallyAndynaswebApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WallyAndynaswebApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
