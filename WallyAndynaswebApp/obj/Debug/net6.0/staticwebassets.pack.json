@@ -5,12 +5,24 @@
       "PackagePath": "staticwebassets\\WallyAndynaswebApp.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\59170\\Desktop\\actualizacion tecnologica\\Ultimo\\Wallywebapp\\WallyAndynaswebApp\\wwwroot\\css\\printer.css",
+      "PackagePath": "staticwebassets\\css\\printer.css"
+    },
+    {
       "Id": "C:\\Users\\59170\\Desktop\\actualizacion tecnologica\\Ultimo\\Wallywebapp\\WallyAndynaswebApp\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\59170\\Desktop\\actualizacion tecnologica\\Ultimo\\Wallywebapp\\WallyAndynaswebApp\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\59170\\Desktop\\actualizacion tecnologica\\Ultimo\\Wallywebapp\\WallyAndynaswebApp\\wwwroot\\fotos\\0..jpeg",
+      "PackagePath": "staticwebassets\\fotos\\0..jpeg"
+    },
+    {
+      "Id": "C:\\Users\\59170\\Desktop\\actualizacion tecnologica\\Ultimo\\Wallywebapp\\WallyAndynaswebApp\\wwwroot\\js\\qrcode.js",
+      "PackagePath": "staticwebassets\\js\\qrcode.js"
     },
     {
       "Id": "C:\\Users\\59170\\Desktop\\actualizacion tecnologica\\Ultimo\\Wallywebapp\\WallyAndynaswebApp\\wwwroot\\js\\site.js",

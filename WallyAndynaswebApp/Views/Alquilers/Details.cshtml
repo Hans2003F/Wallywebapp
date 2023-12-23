@@ -1,90 +1,99 @@
 ﻿@model WallyAndynaswebApp.Models.Alquiler
 
 @{
-    ViewData["Title"] = "Details";
+    @*ViewData["Title"] = "Details";*@
+    Layout = null;
 }
+<!DOCTYPE html>
 
-<h1>Details</h1>
+<html>
+    <head>
+        <title>Recibo</title>
+        <link href="~/css/printer.css" rel="stylesheet" />
+        <script src="~/js/qrcode.js"></script>
+    </head>
+    <body onload="window.print()" onafterprint="history.back()">
+        <div class="contenedor onlyPrint">
+            <div style="text-align: center">
+                <br />
+                <h1>Wally Andyna</h1>
+                <br />
+                <h3>Oruro</h3>
+                <h1>RECIBO # @Html.DisplayFor(model => model.Id)</h1>
+            </div>
 
-<div>
-    <h4>Alquiler</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.NumCancha)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.NumCancha)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Cliente)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Cliente)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.CedIden)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.CedIden)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Celular)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Celular)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Fecha)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Fecha)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Horas)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Horas)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Desde)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Desde)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Hasta)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Hasta)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Costo)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Costo)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Estado)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Estado)
-        </dd>
-        <dt class = "col-sm-2"> 
-            @Html.DisplayNameFor(model => model.Usuario)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Usuario.Contraseña)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Cancha)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Cancha.Descripcion)
-        </dd>
-    </dl>
-</div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
-</div>
+            <hr />
+
+            <h3>Datos del Cliente</h3>
+
+            <dl class="row">
+                <dd class="col-sm-12">
+                    Fecha: @Html.DisplayFor(model => model.Fecha)
+                </dd>
+
+                <dd class="col-md-10">
+                    Ci: @Html.DisplayFor(model => model.CedIden)
+                </dd>
+
+                <dd class="col-md-10">
+                    @Html.DisplayFor(model => model.Cliente)
+                </dd>
+                
+                <dd class="col-md-10">
+                    Celular: @Html.DisplayFor(model => model.Celular)
+                </dd>
+
+            </dl>
+
+            <hr />
+
+            <h3>Datos de la cancha</h3>
+
+            <dl class="row">
+
+                <dd class="col-sm-12">
+                    Cancha: @Html.DisplayFor(model => model.NumCancha)
+                </dd>
+
+                <dd class="col-sm-12">
+                    Horas: @Html.DisplayFor(model => model.Horas)
+                </dd>
+
+                <dd class="col-sm-12">
+                    Desde: @Html.DisplayFor(model => model.Desde)
+                </dd>
+
+                <dd class="col-sm-12">
+                    Hasta: @Html.DisplayFor(model => model.Hasta)
+                </dd>
+
+                <dd class="col-sm-12">
+                    Costo: @Html.DisplayFor(model => model.Costo)
+                </dd>
+
+                <dd class="col-sm-12">
+                    Estado: @Html.DisplayFor(model => model.Estado)
+                </dd>
+            </dl>
+    
+            @{
+                string qr = String.Format("{0}|{1}|{2}|{3}|{4}|{5}",
+                Model.Cliente,
+                Model.CedIden,
+                Model.Fecha,
+                Model.NumCancha,
+                Model.Desde,
+                Model.Hasta
+                );
+            }
+        </div>
+
+        <script>
+        function generarQR() {
+            var contenidoQR = document.getElementById("txtContenidoQR").value;
+
+           
+        }
+        </script> 
+    </body>
+</html>
