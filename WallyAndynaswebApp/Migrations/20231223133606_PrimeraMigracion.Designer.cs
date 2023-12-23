@@ -12,7 +12,7 @@ using WallyAndynaswebApp.Context;
 namespace WallyAndynaswebApp.Migrations
 {
     [DbContext(typeof(MiContext))]
-    [Migration("20231222205703_PrimeraMigracion")]
+    [Migration("20231223133606_PrimeraMigracion")]
     partial class PrimeraMigracion
     {
         /// <inheritdoc />
